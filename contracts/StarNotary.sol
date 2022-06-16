@@ -2,7 +2,7 @@ pragma solidity ^0.8.0;
 
 import "../node_modules/openzeppelin-solidity/contracts/token/ERC721/ERC721.sol";
 
-contract StarNotaryV2 is ERC721 {
+contract StarNotary is ERC721 {
     constructor() ERC721("MyNFT", "MNFT") {
     }
 }
